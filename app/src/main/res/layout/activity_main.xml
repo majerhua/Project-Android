@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:gravity="top">
+<!--
+    <TextView
+        android:text="Registro Inventario/QR"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_height="50dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtNombre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtApellido">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtEmpresa">
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:hint="@string/txtEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+-->
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar Numero">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/edAlCuadrado"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:onClick="calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        />
+
+    <TextView
+        android:id="@+id/tvAlCuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando Resultado..."
+        />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinnerl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms_multiline="false"
+        app:ms_hint="--Seleccionar--"
+        app:ms_enableFloatingLabel="true"
+        app:ms_enableErrorLabel="false"
+        app:ms_floatingLabelText="Disciplinas"
+        app:ms_thickness="2dp"
+        app:ms_arrowSize="16dp"
+        app:ms_alignLabels="true"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+
+    <TextView
+        android:id="@+id/mJsonTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando Resultado..."
+        />
+
+</LinearLayout>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tvBarCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yisus mamaguebo"
+        tools:layout_editor_absoluteX="139dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/tvBarCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yisus mamaguebo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <Button
+        android:id="@+id/btnScanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="Escanear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvBarCode" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnScanner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>-->
